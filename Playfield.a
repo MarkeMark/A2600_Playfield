@@ -15,10 +15,10 @@
 Reset:
     CLEAN_START
 
-    ldx #$80       ; blue background color
+    ldx #$c0      ; blue background color
     stx COLUBK
 
-    lda #$1C       ; yellow playfield color
+    lda #$E4       ; yellow playfield color
     sta COLUPF
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
